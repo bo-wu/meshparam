@@ -16,5 +16,7 @@
 int main(int argc, char** argv)
 {
 	std::string mesh_name = argv[1];
+	MeshParamterization mp(mesh_name);
+	mp.parameterize();
 	return 0;
 }
